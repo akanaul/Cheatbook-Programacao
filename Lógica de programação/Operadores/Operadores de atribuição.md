@@ -93,4 +93,4 @@ c
 Os operadores de atribuição são a base para manipulação de valores em variáveis e fundamentais em lógica de programação. Entender seu funcionamento e suas variações aprimora a escrita, leitura e manutenção de códigos, formando um conhecimento essencial para o estudo de programação a longo prazo.
 
 
-[[Tags]]
+
