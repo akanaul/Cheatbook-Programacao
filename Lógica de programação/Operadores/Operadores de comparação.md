@@ -1,14 +1,56 @@
+---
+{}
+---
 # Operadores de Comparação em Lógica de Programação
+
+## Sumário:
+- [[#Introdução|Introdução]]
+- [[#Tipos de Operadores de Comparação|Tipos de Operadores de Comparação]]
+	- [[#Tipos de Operadores de Comparação#1. Igualdade (=)|1. Igualdade (=)]]
+	- [[#Tipos de Operadores de Comparação#2. Desigualdade (!=)|2. Desigualdade (!=)]]
+	- [[#Tipos de Operadores de Comparação#3. Maior que (>)|3. Maior que (>)]]
+	- [[#Tipos de Operadores de Comparação#4. Menor que (<)|4. Menor que (<)]]
+	- [[#Tipos de Operadores de Comparação#5. Maior ou igual (>=)|5. Maior ou igual (>=)]]
+	- [[#Tipos de Operadores de Comparação#6. Menor ou igual (<=)|6. Menor ou igual (<=)]]
+- [[#Comparação por Tipos de Dados|Comparação por Tipos de Dados]]
+	- [[#Comparação por Tipos de Dados#Números Inteiros e Decimais|Números Inteiros e Decimais]]
+	- [[#Comparação por Tipos de Dados#Strings (Cadeias de Caracteres)|Strings (Cadeias de Caracteres)]]
+	- [[#Comparação por Tipos de Dados#Valores Booleanos|Valores Booleanos]]
+- [[#Aplicações Práticas|Aplicações Práticas]]
+	- [[#Aplicações Práticas#1. Estruturas Condicionais|1. Estruturas Condicionais]]
+	- [[#Aplicações Práticas#2. Loops com Condições|2. Loops com Condições]]
+	- [[#Aplicações Práticas#3. Validação de Dados|3. Validação de Dados]]
+	- [[#Aplicações Práticas#4. Filtragem de Listas|4. Filtragem de Listas]]
+- [[#Operadores de Comparação em Diferentes Linguagens|Operadores de Comparação em Diferentes Linguagens]]
+	- [[#Operadores de Comparação em Diferentes Linguagens#Python|Python]]
+	- [[#Operadores de Comparação em Diferentes Linguagens#Java|Java]]
+	- [[#Operadores de Comparação em Diferentes Linguagens#C/C++|C/C++]]
+	- [[#Operadores de Comparação em Diferentes Linguagens#JavaScript|JavaScript]]
+- [[#Precedência de Operadores|Precedência de Operadores]]
+- [[#Cuidados e Boas Práticas|Cuidados e Boas Práticas]]
+	- [[#Cuidados e Boas Práticas#1. Comparação de Tipos Diferentes|1. Comparação de Tipos Diferentes]]
+	- [[#Cuidados e Boas Práticas#2. Comparação de Números de Ponto Flutuante|2. Comparação de Números de Ponto Flutuante]]
+	- [[#Cuidados e Boas Práticas#3. Comparação de Objetos|3. Comparação de Objetos]]
+- [[#Operadores de Comparação Encadeados|Operadores de Comparação Encadeados]]
+	- [[#Operadores de Comparação Encadeados#Python permite encadeamento:|Python permite encadeamento:]]
+- [[#Exercícios Práticos|Exercícios Práticos]]
+	- [[#Exercícios Práticos#Exercício 1: Classificação de Notas|Exercício 1: Classificação de Notas]]
+	- [[#Exercícios Práticos#Exercício 2: Verificação de Ano Bissexto|Exercício 2: Verificação de Ano Bissexto]]
+	- [[#Exercícios Práticos#Exercício 3: Comparação de Três Números|Exercício 3: Comparação de Três Números]]
+- [[#Tabela de Verdade para Comparações|Tabela de Verdade para Comparações]]
+- [[#Dicas de Estudo|Dicas de Estudo]]
+- [[#Conclusão|Conclusão]]
 
 ## Introdução
 
 Os operadores de comparação são fundamentais na programação, permitindo comparar valores e tomar decisões baseadas nos resultados. Estes operadores retornam valores booleanos (verdadeiro ou falso) e são essenciais para estruturas de controle como condicionais e loops.
 
+
 ## Tipos de Operadores de Comparação
 
-### 1. Igualdade (==)
+### 1. Igualdade (=)
 - **Função**: Verifica se dois valores são iguais
-- **Símbolo**: `==`
+- **Símbolo**: ==
 - **Exemplo**: 
   ```python
   5 == 5    # True
@@ -27,6 +69,7 @@ Os operadores de comparação são fundamentais na programação, permitindo com
   ```
 
 ### 3. Maior que (>)
+
 - **Função**: Verifica se o valor à esquerda é maior que o da direita
 - **Símbolo**: `>`
 - **Exemplo**:
@@ -37,6 +80,7 @@ Os operadores de comparação são fundamentais na programação, permitindo com
   ```
 
 ### 4. Menor que (<)
+
 - **Função**: Verifica se o valor à esquerda é menor que o da direita
 - **Símbolo**: `<`
 - **Exemplo**:
@@ -47,6 +91,7 @@ Os operadores de comparação são fundamentais na programação, permitindo com
   ```
 
 ### 5. Maior ou igual (>=)
+
 - **Função**: Verifica se o valor à esquerda é maior ou igual ao da direita
 - **Símbolo**: `>=`
 - **Exemplo**:
@@ -57,6 +102,7 @@ Os operadores de comparação são fundamentais na programação, permitindo com
   ```
 
 ### 6. Menor ou igual (<=)
+
 - **Função**: Verifica se o valor à esquerda é menor ou igual ao da direita
 - **Símbolo**: `<=`
 - **Exemplo**:
@@ -69,6 +115,7 @@ Os operadores de comparação são fundamentais na programação, permitindo com
 ## Comparação por Tipos de Dados
 
 ### Números Inteiros e Decimais
+
 ```python
 # Inteiros
 10 == 10     # True
@@ -82,6 +129,7 @@ Os operadores de comparação são fundamentais na programação, permitindo com
 ```
 
 ### Strings (Cadeias de Caracteres)
+
 ```python
 # Comparação lexicográfica (ordem alfabética)
 "apple" < "banana"   # True
@@ -95,6 +143,7 @@ Os operadores de comparação são fundamentais na programação, permitindo com
 ```
 
 ### Valores Booleanos
+
 ```python
 True == True    # True
 False == False  # True
@@ -105,6 +154,7 @@ False < True    # True
 ## Aplicações Práticas
 
 ### 1. Estruturas Condicionais
+
 ```python
 idade = 18
 
@@ -115,6 +165,7 @@ else:
 ```
 
 ### 2. Loops com Condições
+
 ```python
 contador = 0
 
@@ -124,6 +175,7 @@ while contador < 10:
 ```
 
 ### 3. Validação de Dados
+
 ```python
 senha = input("Digite a senha: ")
 
@@ -134,6 +186,7 @@ else:
 ```
 
 ### 4. Filtragem de Listas
+
 ```python
 numeros = [1, 5, 8, 12, 15, 20]
 maiores_que_10 = [x for x in numeros if x > 10]
@@ -143,6 +196,7 @@ maiores_que_10 = [x for x in numeros if x > 10]
 ## Operadores de Comparação em Diferentes Linguagens
 
 ### Python
+
 ```python
 x == y    # Igualdade
 x != y    # Desigualdade
@@ -153,6 +207,7 @@ x <= y    # Menor ou igual
 ```
 
 ### Java
+
 ```java
 x == y    // Igualdade
 x != y    // Desigualdade
@@ -163,6 +218,7 @@ x <= y    // Menor ou igual
 ```
 
 ### C/C++
+
 ```c
 x == y    // Igualdade
 x != y    // Desigualdade
@@ -173,6 +229,7 @@ x <= y    // Menor ou igual
 ```
 
 ### JavaScript
+
 ```javascript
 x == y    // Igualdade (com conversão de tipo)
 x === y   // Igualdade estrita (sem conversão)
@@ -188,7 +245,7 @@ x <= y    // Menor ou igual
 
 A ordem de precedência (do maior para o menor):
 1. `<`, `<=`, `>`, `>=`
-2. `==`, `!=`
+2. == , `!=`
 3. Operadores lógicos (`and`, `or`, `not`)
 
 Exemplo:
@@ -282,11 +339,11 @@ print(f"O maior número é: {maior}")
 
 ## Tabela de Verdade para Comparações
 
-| A   | B   | A == B | A != B | A > B | A < B | A >= B | A <= B |
-| --- | --- | ------ | ------ | ----- | ----- | ------ | ------ |
-| 5   | 5   | True   | False  | False | False | True   | True   |
-| 5   | 3   | False  | True   | True  | False | True   | False  |
-| 3   | 5   | False  | True   | False | True  | False  | True   |
+| A | B | A == B | A != B | A > B | A < B | A >= B | A <= B |
+|---|---|--------|--------|-------|-------|--------|--------|
+| 5 | 5 | True   | False  | False | False | True   | True   |
+| 5 | 3 | False  | True   | True  | False | True   | False  |
+| 3 | 5 | False  | True   | False | True  | False  | True   |
 
 ## Dicas de Estudo
 
@@ -301,3 +358,7 @@ print(f"O maior número é: {maior}")
 Os operadores de comparação são ferramentas essenciais para a lógica de programação. Eles permitem criar programas que tomam decisões baseadas em dados, validam entradas do usuário e controlam o fluxo de execução. Dominar estes operadores é fundamental para qualquer programador, independentemente da linguagem utilizada.
 
 Pratique regularmente e experimente diferentes cenários para solidificar seu entendimento destes conceitos fundamentais.
+
+#### Tags
+
+#Operadores #Fundamentos
