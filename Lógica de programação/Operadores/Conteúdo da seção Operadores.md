@@ -9,6 +9,7 @@ Essa seção aborda operadores no contexto de lógica de programação, alguns d
 3.  [[Operadores lógicos]]
 4.  [[Operadores de atribuição]]
 5.  [[Operadores de associação]]
+6.  [[Operadores de identidade]]
 
 #### Tags 
 #Operadores #Conteudo
