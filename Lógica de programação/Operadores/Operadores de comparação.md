@@ -361,4 +361,4 @@ Pratique regularmente e experimente diferentes cenários para solidificar seu en
 
 #### Tags
 
-#Operadores #Fundamentos
+#Fundamentos
