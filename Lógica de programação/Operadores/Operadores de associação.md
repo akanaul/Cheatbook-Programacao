@@ -1,6 +1,29 @@
 # Operadores de Associação em Lógica de Programação
 
-Este guia abrangente explora os operadores de associação na lógica de programação, fornecendo uma base sólida para compreensão e aplicação prática desses conceitos fundamentais. O documento examina tanto os operadores de membership quanto os conceitos de associatividade e precedência, elementos cruciais para o desenvolvimento de algoritmos eficientes e código bem estruturado.
+- [[#Introdução aos Operadores de Associação|Introdução aos Operadores de Associação]]
+- [[#Operadores de Membership (in e not in)|Operadores de Membership (in e not in)]]
+	- [[#Operadores de Membership (in e not in)#Definição e Funcionalidade|Definição e Funcionalidade]]
+	- [[#Operadores de Membership (in e not in)#Sintaxe e Estrutura|Sintaxe e Estrutura]]
+	- [[#Operadores de Membership (in e not in)#Aplicações em Estruturas de Dados|Aplicações em Estruturas de Dados]]
+	- [[#Operadores de Membership (in e not in)#Implementação Manual e Otimização|Implementação Manual e Otimização]]
+- [[#Associatividade de Operadores|Associatividade de Operadores]]
+	- [[#Associatividade de Operadores#Conceitos Fundamentais|Conceitos Fundamentais]]
+	- [[#Associatividade de Operadores#Associatividade à Esquerda|Associatividade à Esquerda]]
+	- [[#Associatividade de Operadores#Associatividade à Direita|Associatividade à Direita]]
+- [[#Precedência e Associatividade Combinadas|Precedência e Associatividade Combinadas]]
+	- [[#Precedência e Associatividade Combinadas#Hierarquia de Operadores|Hierarquia de Operadores]]
+	- [[#Precedência e Associatividade Combinadas#Interação entre Precedência e Associatividade|Interação entre Precedência e Associatividade]]
+	- [[#Precedência e Associatividade Combinadas#Uso de Parênteses para Controle Explícito|Uso de Parênteses para Controle Explícito]]
+- [[#Aplicações Práticas e Exemplos|Aplicações Práticas e Exemplos]]
+	- [[#Aplicações Práticas e Exemplos#Validação de Entrada de Usuário|Validação de Entrada de Usuário]]
+	- [[#Aplicações Práticas e Exemplos#Análise de Texto e Processamento de Strings|Análise de Texto e Processamento de Strings]]
+	- [[#Aplicações Práticas e Exemplos#Controle de Fluxo e Estruturas Condicionais|Controle de Fluxo e Estruturas Condicionais]]
+	- [[#Aplicações Práticas e Exemplos#Operações de Conjunto e Filtragem|Operações de Conjunto e Filtragem]]
+- [[#Considerações de Performance e Otimização|Considerações de Performance e Otimização]]
+	- [[#Considerações de Performance e Otimização#Complexidade Computacional|Complexidade Computacional]]
+	- [[#Considerações de Performance e Otimização#Estratégias de Otimização|Estratégias de Otimização]]
+- [[#Conclusão|Conclusão]]
+- [[#Referências|Referências]]
 
 ## Introdução aos Operadores de Associação
 

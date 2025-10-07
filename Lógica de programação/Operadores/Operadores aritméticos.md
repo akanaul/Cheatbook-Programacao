@@ -1,5 +1,33 @@
 # Operadores aritméticos em lógica de programação
 
+- [[#Introdução|Introdução]]
+- [[#Fundamentos Conceituais dos Operadores Aritméticos|Fundamentos Conceituais dos Operadores Aritméticos]]
+	- [[#Fundamentos Conceituais dos Operadores Aritméticos#Natureza Binária e Unária dos Operadores|Natureza Binária e Unária dos Operadores]]
+- [[#Operadores Aritméticos Básicos|Operadores Aritméticos Básicos]]
+	- [[#Operadores Aritméticos Básicos#Adição (+)|Adição (+)]]
+	- [[#Operadores Aritméticos Básicos#Subtração (-)|Subtração (-)]]
+	- [[#Operadores Aritméticos Básicos#Multiplicação (*)|Multiplicação (*)]]
+	- [[#Operadores Aritméticos Básicos#Divisão (/)|Divisão (/)]]
+	- [[#Operadores Aritméticos Básicos#Módulo (%)|Módulo (%)]]
+- [[#Precedência e Associatividade de Operadores|Precedência e Associatividade de Operadores]]
+	- [[#Precedência e Associatividade de Operadores#Hierarquia de Precedência|Hierarquia de Precedência]]
+	- [[#Precedência e Associatividade de Operadores#Associatividade e Agrupamento|Associatividade e Agrupamento]]
+- [[#Considerações sobre Tipos de Dados|Considerações sobre Tipos de Dados]]
+	- [[#Considerações sobre Tipos de Dados#Coerção e Conversão de Tipos|Coerção e Conversão de Tipos]]
+	- [[#Considerações sobre Tipos de Dados#Overflow e Underflow Numérico|Overflow e Underflow Numérico]]
+- [[#Aplicações Práticas em Algoritmos|Aplicações Práticas em Algoritmos]]
+	- [[#Aplicações Práticas em Algoritmos#Cálculos Matemáticos Fundamentais|Cálculos Matemáticos Fundamentais]]
+	- [[#Aplicações Práticas em Algoritmos#Manipulação de Índices e Contadores|Manipulação de Índices e Contadores]]
+	- [[#Aplicações Práticas em Algoritmos#Geração de Padrões e Sequências|Geração de Padrões e Sequências]]
+- [[#Otimização e Eficiência Computacional|Otimização e Eficiência Computacional]]
+	- [[#Otimização e Eficiência Computacional#Complexidade Temporal das Operações|Complexidade Temporal das Operações]]
+	- [[#Otimização e Eficiência Computacional#Estratégias de Otimização Avançada|Estratégias de Otimização Avançada]]
+- [[#Tratamento de Erros e Casos Extremos|Tratamento de Erros e Casos Extremos]]
+	- [[#Tratamento de Erros e Casos Extremos#Validação de Entrada e Robustez|Validação de Entrada e Robustez]]
+	- [[#Tratamento de Erros e Casos Extremos#Tratamento de Precisão Numérica|Tratamento de Precisão Numérica]]
+- [[#Conclusão|Conclusão]]
+
+## Introdução
  Os operadores aritméticos constituem elementos fundamentais na construção de algoritmos e representam a base matemática sobre a qual se desenvolvem operações computacionais complexas, permitindo que programas executem cálculos desde os mais simples até os mais elaborados.
 
 ## Fundamentos Conceituais dos Operadores Aritméticos

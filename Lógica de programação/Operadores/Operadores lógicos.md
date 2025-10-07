@@ -2,6 +2,39 @@
 
 # Operadores Lógicos em Programação
 
+- [[#Introdução|Introdução]]
+- [[#Conceitos Fundamentais|Conceitos Fundamentais]]
+- [[#Lógica Booleana|Lógica Booleana]]
+- [[#Expressões Lógicas|Expressões Lógicas]]
+- [[#Principais Operadores Lógicos|Principais Operadores Lógicos]]
+	- [[#Principais Operadores Lógicos#1. AND (E) - &&, and, &|1. AND (E) - &&, and, &]]
+	- [[#Principais Operadores Lógicos#2. OR (OU) - ||, or, ||2. OR (OU) - ||, or, |]]
+	- [[#Principais Operadores Lógicos#3. NOT (NÃO) - !, not, ~|3. NOT (NÃO) - !, not, ~]]
+	- [[#Principais Operadores Lógicos#4. XOR (OU Exclusivo) - ^, xor|4. XOR (OU Exclusivo) - ^, xor]]
+- [[#Precedência dos Operadores|Precedência dos Operadores]]
+- [[#Avaliação de Curto-Circuito (Short-Circuit)|Avaliação de Curto-Circuito (Short-Circuit)]]
+	- [[#Avaliação de Curto-Circuito (Short-Circuit)#AND com Curto-Circuito|AND com Curto-Circuito]]
+	- [[#Avaliação de Curto-Circuito (Short-Circuit)#OR com Curto-Circuito|OR com Curto-Circuito]]
+- [[#Aplicações Práticas|Aplicações Práticas]]
+	- [[#Aplicações Práticas#1. Validação de Entrada|1. Validação de Entrada]]
+	- [[#Aplicações Práticas#2. Controle de Fluxo|2. Controle de Fluxo]]
+	- [[#Aplicações Práticas#3. Filtros e Busca|3. Filtros e Busca]]
+	- [[#Aplicações Práticas#4. Validação de Condições Complexas|4. Validação de Condições Complexas]]
+- [[#Operadores Lógicos vs Bitwise|Operadores Lógicos vs Bitwise]]
+	- [[#Operadores Lógicos vs Bitwise#Operadores Lógicos|Operadores Lógicos]]
+	- [[#Operadores Lógicos vs Bitwise#Operadores Bitwise|Operadores Bitwise]]
+- [[#Dicas e Boas Práticas|Dicas e Boas Práticas]]
+	- [[#Dicas e Boas Práticas#1. Use Parênteses para Clareza|1. Use Parênteses para Clareza]]
+	- [[#Dicas e Boas Práticas#2. Evite Negações Complexas|2. Evite Negações Complexas]]
+	- [[#Dicas e Boas Práticas#3. Use Variáveis Descritivas|3. Use Variáveis Descritivas]]
+- [[#Leis Fundamentais|Leis Fundamentais]]
+	- [[#Leis Fundamentais#Lei de De Morgan|Lei de De Morgan]]
+	- [[#Leis Fundamentais#Lei da Identidade|Lei da Identidade]]
+	- [[#Leis Fundamentais#Lei da Anulação|Lei da Anulação]]
+	- [[#Leis Fundamentais#Lei da Idempotência|Lei da Idempotência]]
+- [[#Debugging com Operadores Lógicos|Debugging com Operadores Lógicos]]
+	- [[#Debugging com Operadores Lógicos#Técnicas Úteis|Técnicas Úteis]]
+- [[#Conclusão|Conclusão]]
 ## Introdução
 
 Os operadores lógicos são elementos fundamentais na programação que permitem avaliar expressões booleanas e tomar decisões baseadas em condições verdadeiras ou falsas. Eles são essenciais para o controle de fluxo, validação de dados e implementação de algoritmos complexos.
@@ -21,7 +54,7 @@ São combinações de valores, variáveis e operadores que resultam em um valor 
 
 ## Principais Operadores Lógicos
 
-## 1. AND (E) - &&, and, &
+### 1. AND (E) - &&, and, &
 
 O operador AND retorna `true` apenas quando **ambas** as condições são verdadeiras.
 
@@ -60,7 +93,7 @@ int pode_dirigir = (idade >= 18) && tem_carteira;
 printf("%d", pode_dirigir); // 1
 ```
 
-## 2. OR (OU) - ||, or, |
+### 2. OR (OU) - ||, or, |
 
 O operador OR retorna `true` quando **pelo menos uma** das condições é verdadeira.
 
@@ -92,7 +125,7 @@ boolean podeDescansar = ehFimDeSemana || ehFeriado;
 System.out.println(podeDescansar); // true
 ```
 
-## 3. NOT (NÃO) - !, not, ~
+### 3. NOT (NÃO) - !, not, ~
 
 O operador NOT inverte o valor lógico da expressão.
 
@@ -121,7 +154,7 @@ bool tempoBom = !estaChovendo;
 cout << tempoBom; // 1 (true)
 ```
 
-## 4. XOR (OU Exclusivo) - ^, xor
+### 4. XOR (OU Exclusivo) - ^, xor
 
 O operador XOR retorna `true` quando **apenas uma** das condições é verdadeira.
 
@@ -165,7 +198,7 @@ resultado = not False and True or False
 
 ## Avaliação de Curto-Circuito (Short-Circuit)
 
-## AND com Curto-Circuito
+### AND com Curto-Circuito
 
 Se a primeira condição for falsa, a segunda não é avaliada.
 
@@ -179,7 +212,7 @@ x = False
 resultado = x and funcao_custosa()  # funcao_custosa() não é chamada
 ```
 
-## OR com Curto-Circuito
+### OR com Curto-Circuito
 
 Se a primeira condição for verdadeira, a segunda não é avaliada.
 
@@ -191,7 +224,7 @@ resultado = x or funcao_custosa()  # funcao_custosa() não é chamada
 
 ## Aplicações Práticas
 
-## 1. Validação de Entrada
+### 1. Validação de Entrada
 
 ```python
 # Python
@@ -202,7 +235,7 @@ def validar_email(email):
     return "@" in email and "." in email
 ```
 
-## 2. Controle de Fluxo
+### 2. Controle de Fluxo
 
 ```python
 # Python
@@ -212,7 +245,7 @@ elif not usuario_logado:
     redirecionar_para_login()
 ```
 
-## 3. Filtros e Busca
+### 3. Filtros e Busca
 
 ```python
 # Python
@@ -223,7 +256,7 @@ produtos_filtrados = [
 ]
 ```
 
-## 4. Validação de Condições Complexas
+### 4. Validação de Condições Complexas
 
 ```python
 # Python
@@ -233,13 +266,13 @@ def pode_sacar(conta, valor):
 
 ## Operadores Lógicos vs Bitwise
 
-## Operadores Lógicos
+### Operadores Lógicos
 
 - Trabalham com valores booleanos
 - Retornam True ou False
 - Usam avaliação de curto-circuito
 
-## Operadores Bitwise
+### Operadores Bitwise
 
 - Trabalham com bits individuais
 - Retornam valores numéricos
@@ -257,7 +290,7 @@ True or False    # True
 
 ## Dicas e Boas Práticas
 
-## 1. Use Parênteses para Clareza
+### 1. Use Parênteses para Clareza
 
 ```python
 # Melhor
@@ -269,7 +302,7 @@ if (idade >= 18 and tem_carteira) or eh_instrutor:
 #     pode_dirigir = True
 ```
 
-## 2. Evite Negações Complexas
+### 2. Evite Negações Complexas
 
 ```python
 # Ruim
@@ -281,7 +314,7 @@ if usuario_ativo or tem_permissao:
     permitir_acesso()
 ```
 
-## 3. Use Variáveis Descritivas
+### 3. Use Variáveis Descritivas
 
 ```python
 # Melhor
@@ -295,54 +328,29 @@ pode_dirigir = tem_idade_suficiente and tem_documentos
 
 ## Leis Fundamentais
 
-## Lei de De Morgan
+### Lei de De Morgan
 
 - `not (A and B)` = `(not A) or (not B)`
 - `not (A or B)` = `(not A) and (not B)`
 
-## Lei da Identidade
+### Lei da Identidade
 
 - `A and True` = `A`
 - `A or False` = `A`
 
-## Lei da Anulação
+### Lei da Anulação
 
 - `A and False` = `False`
 - `A or True` = `True`
 
-## Lei da Idempotência
+### Lei da Idempotência
 
 - `A and A` = `A`
 - `A or A` = `A`
 
-## Exercícios Práticos
-
-## Exercício 1: Sistema de Login
-
-Implemente uma função que valide se um usuário pode fazer login:
-
-- Deve ter email válido (contém @ e .)
-- Senha deve ter pelo menos 8 caracteres
-- Conta não pode estar bloqueada
-
-## Exercício 2: Calculadora de Desconto
-
-Crie uma função que determine se um cliente tem direito a desconto:
-
-- Cliente VIP OU compra acima de R$ 500
-- E não seja primeira compra com valor menor que R$ 100
-
-## Exercício 3: Validador de Data
-
-Implemente uma função que valide uma data:
-
-- Mês entre 1 e 12
-- Dia válido para o mês
-- Ano entre 1900 e ano atual
-
 ## Debugging com Operadores Lógicos
 
-## Técnicas Úteis
+### Técnicas Úteis
 
 ```python
 # 1. Quebrar expressões complexas
