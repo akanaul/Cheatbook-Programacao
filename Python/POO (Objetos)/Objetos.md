@@ -1,4 +1,3 @@
-
 # Objetos em Python
 
 Python é uma linguagem fundamentalmente orientada a objetos, onde praticamente tudo é um objeto.
