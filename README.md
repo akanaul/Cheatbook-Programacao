@@ -1,7 +1,7 @@
 # Acervo de arquivos markdown para estudo
 
-Esse repositório é um projeto pessoal para agregrar documentos de apoio em .MD para acesso rápido no obsidian para estudo, apesar dos arquivos serem optimizados para obsidian com planos
-de manter tags atualizadas caso escolham a ferramenta, esses arquivos agnosticos de ferramentas e podem ser usadas até memso no bloco de notas.
+Esse repositório é um projeto pessoal para agregar documentos de apoio em .MD para acesso rápido no obsidian para estudo, apesar dos arquivos serem optimizados para obsidian com planos
+de manter tags atualizadas caso escolham a ferramenta, esses arquivos são agnósticos de ferramentas e podem ser usadas até mesmo no bloco de notas.
 
 ## Objetivos:
 
